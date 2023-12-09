@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Pj's Signature</title>
 </head>
+
 <body>
     <style>
         body {
@@ -21,11 +23,12 @@
         }
 
         .asbgv-logo {
-            margin: 10px;
+            margin: 16px 12px 0px 8px;
         }
 
         .info {
             padding: 4px;
+            font-size: 12px;
         }
 
         .name {
@@ -40,33 +43,55 @@
 
         .contact {
             font-weight: bold;
+            text-decoration: none;
+            padding-right: 8px;
         }
 
-        .contact-detail {
-            margin-top: -12px;
+        .work-tel, .work-web {
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
         }
-
     </style>
 
     <table>
 
         <!-- School logo Left side  -->
         <tbody>
-            <td class="school-logo">
-                <span class="asbgv"><a href="http://asbgv.ac.th" target="_blank" rel="noopener noreferrer"><img src="https://soft-cannoli-3f82df.netlify.app/images/ASBGV.png" alt="school-logo" style="width: 250px;" class="asbgv-logo"></a></span>
-            </td>
+            <tr>
+                <td class="school-logo">
+                    <span class="asbgv">
+                        <a href="http://asbgv.ac.th" target="_blank" rel="noopener noreferrer">
+                            <img src="https://asbgvsignature.netlify.app/images/ASBGV.png" alt="school-logo"
+                                style="width: 250px; width: 180px;" class="asbgv-logo">
+                        </a>
+                    </span>
+                    <p class="contact">
+                        <span class="work-tel">
+                            <img class="tel-logo" src="/images/Tel.png" alt="tel-logo" style="width: 12px; padding-right: 6px;">02-430-8888
+                        </span>
+                        <span class="padding-between"> <!-- Additional span for padding -->
+                            &nbsp<!-- Add non-breaking spaces for padding -->
+                        </span>
+                        <span class="work-web">
+                            <img src="/images/W.png" alt="web-logo" class="web-logo" style="width: 12px; padding-right: 6px;"><a href="http://asbgv.ac.th" target="_blank" rel="noopener noreferrer">asbgv.ac.th</a>
+                        </span>
+                    </p>
+                    
+                </td>
 
-            <td class="info">
-                <span class="detail">
-                    <p class="name">Phupipat Jimjuan (Owen)</p>
-                    <p class="role">IT Support</p>
-                    <p class="contact">Contact :</p>
-                    <p class="contact-detail">+66950396820 | pjimjuan@asb.ac.th</p>
-                </span>
-            </td>
+                <td class="info">
+                    <span class="detail">
+                        <p class="name">Phupipat Jimjuan (Owen)</p>
+                        <p class="role">IT Support</p>
+                        <p class="contact">pjimjuan@asb.ac.th</p>
+                    </span>
+                </td>
+            </tr>
 
         </tbody>
     </table>
-    
+
 </body>
+
 </html>
